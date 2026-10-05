@@ -11,6 +11,8 @@ Supported by IEEE ComSoc ISAC Emerging Technology Inititive (ETI) &  IEEE SPS IS
 
 ## [Content](#content)
 
+[2023–2025 Update: Reading Guide](#20232025-update-reading-guide)
+
 <table>
 <tr><td colspan="2"><a href="#1-surveys-and-tutorial">1. Surveys and Tutorials</a></td></tr> 
   <tr>
@@ -74,11 +76,27 @@ Supported by IEEE ComSoc ISAC Emerging Technology Inititive (ETI) &  IEEE SPS IS
 
 
 
+## 2023–2025 Update: Reading Guide
+
+The three additions in the [upstream updates through 2026-01-02](https://github.com/yuanhao-cui/Must-Reading-on-ISAC/commit/9999f043ee3ed47cfa32ea5f3156c481b7ad6ed7), grouped by reading purpose. Years below refer to publication or preprint years. Suggested priorities: **P1 = core reading; P2 = follow-up for network-level work**.
+
+| Category | Paper and venue | Technical value | Reading priority |
+| --- | --- | --- | --- |
+| Surveys | [Seventy Years of Radar and Communications: The road from separation to integration](https://ieeexplore.ieee.org/document/10188491) — IEEE Signal Processing Magazine, 2023 | Explains radar/communications signal and system duality, then connects growing bandwidth and antenna arrays to the emergence of ISAC. Provides the conceptual foundation for understanding shared waveforms and the ISAC signal-processing framework. | **P1 — read first** |
+| Fundamental theory | [On the Fundamental Tradeoff of Integrated Sensing and Communications Under Gaussian Channels](https://ieeexplore.ieee.org/document/10147248) ([preprint](https://arxiv.org/abs/2204.06938)) — IEEE Transactions on Information Theory, 2023 | Studies a point-to-point vector Gaussian model through the Cramér–Rao-bound (CRB)–rate region, characterizing its corner points and inner/outer bounds. Separates subspace and deterministic–random tradeoffs, giving a rigorous baseline for waveform and resource design. | **P1 — theory next** |
+| Networked ISAC | [Integrated Sensing and Communication: Towards Multifunctional Perceptive Network](https://arxiv.org/abs/2510.14358) — arXiv preprint, 2025 | Reviews the shift toward collaborative multistatic sensing and sensing-data transport in perceptive networks. Useful for framing architecture, synchronization, interference management and data-fusion questions beyond a single link. | **P2 — network extension** |
+
+The 2025 item is a preprint; upstream records its status as “submitted to NREE” (Nature Reviews Electrical Engineering).
+
 ## [1. Surveys and Tutorials](#1-surveys-and-tutorials)
 
 ### [1.1 Basic Concept](##11-basic-concept)
 
-1. **Integrated Sensing and Communications: Towards Dual-functional Wireless Networks for 6G and Beyond.** Arxiv, 2021. [Journal](https://arxiv.org/abs/2108.07165). 
+1. **Integrated Sensing and Communication: Towards Multifunctional Perceptive Network.** submitted to NREE, 2025. [Journal](https://arxiv.org/pdf/2510.14358). 
+
+    *Y. Cui, J. Nie, F. Liu, W. Yuan, Z. Feng, X. Jing, Y. Liu,  J. Xu, C. Masouros, S. Cui* 
+
+1. **Integrated Sensing and Communications: Towards Dual-functional Wireless Networks for 6G and Beyond.** IEEE JSAC, 2022. [Journal](https://ieeexplore.ieee.org/document/9737357). 
 
     *F. Liu, Y. Cui, C. Masouros, J. Xu, T. X. Han, Y. C. Eldar, S. Buzzi* 
 
@@ -89,10 +107,10 @@ Supported by IEEE ComSoc ISAC Emerging Technology Inititive (ETI) &  IEEE SPS IS
 1. **Joint Radar and Communication Design: Applications, State-of-the-Art, and the Road Ahead.** IEEE TCOM, 2020. [Journal](https://ieeexplore.ieee.org/document/8999605). [Code](https://github.com/yuanhao-cui/Must-Reading-on-ISAC/blob/main/Codes/Fan2020TCOM/Fan_DFRC.m)
 
     *F. Liu, C. Masouros, A. P. Petropulu, H. Griffiths, L. Hanzo*
+   
+1. **Seventy Years of Radar and Communications: The road from separation to integration.** IEEE SPM, 2023. [Magazine](https://ieeexplore.ieee.org/document/10188491).
 
-1. **Waveform Design and Signal Processing Aspects for Fusion of Wireless Communications and Radar Sensing.** Proceedings of the IEEE, 2011. [Magazine](https://ieeexplore.ieee.org/document/5776640).
-
-    *C. Sturm, W. Wiesbeck*
+    *F. Liu, L. Zheng, Y. Cui, C. Masouros, A. P. Petropulu, H. Griffiths, Y. C. Eldar*
 
 1. **Dual-Function Radar Communication Systems: A Solution to the Spectrum Congestion Problem.** IEEE SPM, 2019. [Magazine](https://ieeexplore.ieee.org/document/8828023). 
 
@@ -138,7 +156,7 @@ Supported by IEEE ComSoc ISAC Emerging Technology Inititive (ETI) &  IEEE SPS IS
 
 ### [1.3 Communication and Networking](#1.3)
 
-1. **Enabling Joint Communication and Radio Sensing in Mobile Networks--A Survey.** IEEE COMST, 2020. [Journal](https://ieeexplore.ieee.org/abstract/document/9585321). 
+1. **Enabling Joint Communication and Radio Sensing in Mobile Networks--A Survey.** IEEE COMST, 2022. [Journal](https://ieeexplore.ieee.org/abstract/document/9585321). 
 
     *J. Zhang, Md. Rahman,  K. Wu, X. Huang, Y. Guo, S. Chen, J. Yuan*
 
@@ -193,6 +211,10 @@ Supported by IEEE ComSoc ISAC Emerging Technology Inititive (ETI) &  IEEE SPS IS
     
 
 ## [2. Fundamental Theory and Performance Analysis](#2)   
+
+1. **On the Fundamental Tradeoff of Integrated Sensing and Communications Under Gaussian Channels.** IEEE TIT, 2023. [Journal](https://ieeexplore.ieee.org/abstract/document/10147248).
+
+   *Y. Xiong, F. Liu, Y. Cui, W. Yuan, T. X. Han, G. Caire*
 
 1. **Joint State Sensing and Communication: Optimal Tradeoff for a Memoryless Case.** IEEE ISIT, 2018. [Conference](https://ieeexplore.ieee.org/document/8437621)
 
